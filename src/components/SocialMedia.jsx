@@ -9,9 +9,9 @@ export default function SocialMedia() {
     },
     {
       name: 'YouTube',
-      url: 'https://open.spotify.com/show/6SByyBFnyXQ81tJXCbMwCp?si=c8449da5ccf745d3', // Temporalmente redirige a Spotify
+      url: 'https://www.youtube.com/@capri-chosos', // Enlace real del canal
       icon: '📺',
-      color: 'bg-red-600 hover:bg-red-700',
+      color: 'bg-astral hover:bg-astral/80',
       textColor: 'text-white'
     },
     {

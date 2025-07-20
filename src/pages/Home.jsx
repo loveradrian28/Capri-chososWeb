@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
   const spotifyUrl = "https://open.spotify.com/show/6SByyBFnyXQ81tJXCbMwCp?si=c8449da5ccf745d3";
-  const youtubeUrl = "https://open.spotify.com/show/6SByyBFnyXQ81tJXCbMwCp?si=c8449da5ccf745d3"; // Temporalmente redirige a Spotify
+  const youtubeUrl = "https://www.youtube.com/@capri-chosos"; // Ahora apunta al canal real
   const latestEpisodeUrl = "https://open.spotify.com/episode/7tGQ9OEAB691wk3rdwhMYm?si=9f72515ba8ac498f";
 
   return (
