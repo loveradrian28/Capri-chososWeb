@@ -10,7 +10,7 @@ export default function Episodes() {
       date: "Jul 17, 2024",
       featured: true,
       spotifyUrl: "https://open.spotify.com/episode/7tGQ9OEAB691wk3rdwhMYm?si=9f72515ba8ac498f",
-      youtubeUrl: "https://open.spotify.com/episode/7tGQ9OEAB691wk3rdwhMYm?si=9f72515ba8ac498f" // Temporalmente redirige a Spotify
+      youtubeUrl: "https://www.youtube.com/@capri-chosos" // Ahora apunta al canal real
     },
     {
       id: 2,
@@ -20,7 +20,7 @@ export default function Episodes() {
       date: "Jul 9, 2024",
       featured: false,
       spotifyUrl: "https://open.spotify.com/episode/76vuYL2MzzCPqcZrXSPLgP?si=65b61e4763494793",
-      youtubeUrl: "https://open.spotify.com/episode/76vuYL2MzzCPqcZrXSPLgP?si=65b61e4763494793" // Temporalmente redirige a Spotify
+      youtubeUrl: "https://www.youtube.com/@capri-chosos" // Ahora apunta al canal real
     }
   ]);
 

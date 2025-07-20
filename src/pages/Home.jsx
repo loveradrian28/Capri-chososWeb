@@ -118,7 +118,7 @@ export default function Home() {
                 Reproducir en Spotify
               </a>
               <a
-                href={latestEpisodeUrl} // Por ahora redirige a Spotify
+                href={youtubeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-astral hover:bg-astral/80 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center gap-2"

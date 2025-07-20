@@ -11,7 +11,7 @@ export default function SocialMedia() {
       name: 'YouTube',
       url: 'https://www.youtube.com/@capri-chosos', // Enlace real del canal
       icon: '📺',
-      color: 'bg-astral hover:bg-astral/80',
+      color: 'bg-red-600 hover:bg-red-700',
       textColor: 'text-white'
     },
     {
