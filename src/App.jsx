@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Episodes from './pages/Episodes';
 import Contact from './pages/Contact';
+import ElevaWidget from './components/ElevaWidget';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
+        <ElevaWidget />
       </div>
     </Router>
   );
