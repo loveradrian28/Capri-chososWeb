@@ -1,10 +1,10 @@
 import { useState, useRef } from 'react';
 
-// Beta frontend URL for La Maquinista tenant.
+// Pre-production frontend URL (single Cloud Run service).
 // - embed=true  → skips onboarding, goes straight to /chat
 // - tenant=maquinista → tells the backend which tenant config to load
 const CHAT_IFRAME_URL =
-  'https://centro-comercial-front-test-676234905472.europe-west1.run.app/chat?embed=true&tenant=maquinista';
+  'https://eleva-assistant-frontend-pre-xmbrxw5xjq-ew.a.run.app/chat?embed=true&tenant=maquinista';
 
 export default function ElevaWidget() {
   const [isOpen, setIsOpen] = useState(false);
