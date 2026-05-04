@@ -1,10 +1,10 @@
 import { useState, useRef } from 'react';
 
-// Pre-production frontend URL (single Cloud Run service).
-// - embed=true  → skips onboarding, goes straight to /chat
-// - tenant=maquinista → tells the backend which tenant config to load
+// Pre-production URL via Cloud Run Domain Mapping.
+// The domain mapping ensures the correct Host header reaches the BFF,
+// so the backend resolves the tenant automatically — no ?tenant= param needed.
 const CHAT_IFRAME_URL =
-  'https://eleva-assistant-frontend-pre-xmbrxw5xjq-ew.a.run.app/chat?embed=true&tenant=maquinista';
+  'https://pre-lamaquinista.eleva-ai.com/chat?embed=true';
 
 export default function ElevaWidget() {
   const [isOpen, setIsOpen] = useState(false);
