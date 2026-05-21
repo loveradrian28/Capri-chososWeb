@@ -3,7 +3,10 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Episodes from './pages/Episodes';
 import Contact from './pages/Contact';
-import ElevaWidget from './components/ElevaWidget';
+
+// El widget de Eleva ya no vive aquí.
+// Se carga directamente desde index.html via script tag —
+// ver el bloque "ELEVA AI WIDGET" al final de index.html.
 
 function App() {
   return (
@@ -17,7 +20,6 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
-        <ElevaWidget />
       </div>
     </Router>
   );

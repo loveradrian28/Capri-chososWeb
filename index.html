@@ -9,5 +9,35 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <!--
+      ╔══════════════════════════════════════════════════════════════╗
+      ║  ELEVA AI WIDGET — lo único que el cliente necesita pegar   ║
+      ╠══════════════════════════════════════════════════════════════╣
+      ║                                                              ║
+      ║  Parámetros opcionales (todos tienen valor por defecto):     ║
+      ║    data-color        → color del botón (hex o cualquier CSS) ║
+      ║    data-color-hover  → color al pasar el ratón              ║
+      ║    data-position     → "bottom-right" | "bottom-left"       ║
+      ║    data-label        → texto accesible del botón            ║
+      ║                                                              ║
+      ║  El script se carga desde el dominio de Eleva, por lo que   ║
+      ║  cualquier actualización de estilos o lógica llega          ║
+      ║  automáticamente a todos los clientes.                       ║
+      ╚══════════════════════════════════════════════════════════════╝
+    -->
+    <!--
+      EN LOCAL (desarrollo): src apunta a /widget.js servido por Vite desde public/,
+        y data-base-url fuerza el iframe a apuntar a la URL real del asistente.
+      EN PRODUCCIÓN (cliente real): src apunta directamente al dominio de Eleva
+        y data-base-url no es necesario (se auto-deriva).
+
+      Ejemplo producción:
+        <script id="eleva-widget"
+          src="https://pre-lamaquinista.eleva-ai.com/widget.js"
+          data-color="#10B981">
+        </script>
+    -->
+    <script id="eleva-widget" src="https://capri-chosos-web.vercel.app/widget.js" data-key="wk_e8a2a360ffa44e2c" defer></script>
   </body>
 </html>
